@@ -1,16 +1,7 @@
 import _ from 'lodash'
-// import { NAME, Nijyou } from './utilities'
-// import * as utilities from './utilities'
-//import { NAME as NAME_OF_YUTAKA } from './utilities'
-import Lion from './utilities' //defaultを設定 Lionのかわりに適当にTigerとしてもOK
+import './style.css'
 
-
-// console.log(Nijyou(4))
-// console.log(NAME)
-// console.log(utilities.NAME)
-// console.log(NAME_OF_YUTAKA)
-console.log(Lion.say()) //defaultを設定している
-
+// console.log(style.toString())
 
 function component() {
   const element = document.createElement('div')
@@ -20,3 +11,4 @@ function component() {
 }
 
 document.body.appendChild(component())
+document.body.classList.add('haikei')
