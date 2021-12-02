@@ -2,7 +2,8 @@ import _ from 'lodash'
 // import { NAME, Nijyou } from './utilities'
 // import * as utilities from './utilities'
 //import { NAME as NAME_OF_YUTAKA } from './utilities'
-import Lion from './utilities' //defaultを設定 Lionのかわりに適当にTigerとしてもOK
+import Lion from './utilities' //defaultをimport Lionのかわりに適当にTigerとしてもOK(Lionという
+//名前がかぶった場合)
 
 
 // console.log(Nijyou(4))
